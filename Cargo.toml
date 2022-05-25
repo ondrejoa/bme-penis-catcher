@@ -7,3 +7,6 @@ edition = "2021"
 
 [dependencies]
 bevy = { version = "0.7.0", features = ["dynamic"] }
+bevy_rapier2d = { version = "0.13.2", features = ["simd-stable"]}
+nalgebra = "0.31.0"
+rand = "0.8.5"
